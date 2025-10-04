@@ -80,16 +80,16 @@
 
     <footer>
       <h2>Контакты</h2>
-      <form action="sendmess.py" method="post">
+      <form action="https://formsubmit.co/ТВОЙ_EMAIL@gmail.com" method="post">
         <div class="contacts">
           <div class="contact-wrapper">
-            <input type="text" class="text-area small" placeholder="Имя" name="name">
-            <input type="email" class="text-area small" placeholder="Email" name="email">
-            <input type="text" class="text-area small" placeholder="Тема" name="theme">
+            <input type="text" class="text-area small" placeholder="Имя" name="name" required>
+            <input type="email" class="text-area small" placeholder="Email" name="email" required>
+            <input type="text" class="text-area small" placeholder="Тема" name="theme" required>
           </div>
 
           <div class="Textarea">
-              <textarea class="text-area" name="message" placeholder="Введите сообщение"></textarea> 
+              <textarea class="text-area" name="message" placeholder="Введите сообщение" required></textarea> 
           </div>
         </div>
         <button type="submit" class="button send">Отправить</button>
@@ -98,5 +98,6 @@
     </footer>
   </div>
 </body>
+
 
 </html>
