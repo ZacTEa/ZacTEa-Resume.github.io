@@ -142,41 +142,20 @@ header {
 
 }
 
-@media (max-width: 768px) {
-
-  body {
-    margin: 0; /* убираем боковые поля */
-    background-color: white; /* делаем фон белым */
+@media (max-width: 1000px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: white; /* полностью белый фон */
+    overflow-x: hidden; /* убираем горизонтальную прокрутку */
   }
 
   .wrap {
-    background-color: white;
-    padding: 10px;
     margin: 0;
-    box-shadow: none; /* если был эффект */
-  }
-
-  .skills, .menu-of-projects, .contacts {
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-  }
-
-  .contact-wrapper, .Textarea {
-    width: 100%;
-    max-width: 300px;
-  }
-
-  .text-area, .text-area.small {
-    width: 100%;
-  }
-
-  .head-site {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  img {
-    max-width: 100px;
+    padding: 15px;
+    background-color: white; /* белый фон для контента */
+    width: 100vw; /* ровно ширина экрана */
+    min-height: 100vh; /* занимает всю высоту */
+    box-sizing: border-box;
   }
 }
