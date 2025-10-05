@@ -139,4 +139,25 @@ header {
   border: 2px solid rgba(100, 100, 100, 0.5);
   padding: 10px;
   box-sizing: border-box;
+
+}
+
+
+@media (max-width: 768px) {
+  .skills, .menu-of-projects, .contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-area.small {
+    width: 90%;
+  }
+
+  .text-area {
+    width: 90%;
+  }
+
+  body {
+    margin: 0 10px;
+  }
 }
