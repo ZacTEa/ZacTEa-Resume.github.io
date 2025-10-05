@@ -141,21 +141,3 @@ header {
   box-sizing: border-box;
 
 }
-
-@media (max-width: 1000px) {
-  body {
-    background-color: white; /* фон полностью белый */
-    display: flex;
-    justify-content: center; /* выравнивание по центру */
-    align-items: flex-start; /* не по вертикали, чтобы шапка оставалась сверху */
-    margin: 0;
-    padding: 0;
-  }
-
-  .wrap {
-    width: 100%;
-    max-width: 900px; /* ширина твоего контента, можно подогнать под реальную */
-    margin: 0 auto;
-    background-color: white;
-  }
-}
