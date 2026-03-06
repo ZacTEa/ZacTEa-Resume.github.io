@@ -1,3 +1,23 @@
+@media (max-width: 767px) {
+  .skills {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .menu-of-projects {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .About {
+    margin: 0 10px;
+  }
+
+  body {
+    margin: 0 10px;
+  }
+}
+
 .wrap {
   margin: 15px auto;
   background-color: white;
@@ -141,3 +161,4 @@ header {
   box-sizing: border-box;
 
 }
+
